@@ -1,2 +1,11 @@
-# fis-parser-babel-env
-fis3+babel-preset-env+es6+react 
+
+
+
+FIS3用法
+
+```
+fis.match('*.es6', {
+    parser: fis.plugin('babel-env'),
+    rExt: 'js'
+});
+```
